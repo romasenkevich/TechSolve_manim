@@ -1,6 +1,6 @@
 from manim import  VMobject, Text, BLACK, RIGHT, DOWN, Line, UP
 from CustomStealthTip import CustomStealthTip
-from TechSolve_manim.utils.constants import Gost_AU_Font, Gost_BU_Font
+from ..utils.constants import *
 
 class CustomText(VMobject):
     def __init__(self, text, color=BLACK, isVector=False, font=Gost_AU_Font, **kwargs):
